@@ -64,7 +64,14 @@
 					<wtpContextName>spring3</wtpContextName>
 				</configuration>
 			</plugin>
-			<reporting>
+			
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+	<reporting>
 				<plugins>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
@@ -73,10 +80,4 @@
 					</plugin>
 				</plugins>
 			</reporting>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 </project>
