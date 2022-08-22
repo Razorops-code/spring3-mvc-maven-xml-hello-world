@@ -13,14 +13,6 @@
 		<jstl.version>1.2</jstl.version>
 	</properties>
 	
-	<dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.2</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies
 
 	<dependencies>
 
@@ -29,6 +21,13 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		
+		<dependency>
+     			 <groupId>junit</groupId>
+  			 <artifactId>junit</artifactId>
+      			 <version>4.13.2</version>
+     			 <scope>test</scope>
+   		 </dependency>
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
