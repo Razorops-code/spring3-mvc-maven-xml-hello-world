@@ -8,4 +8,4 @@ tasks:
       - |
         mvn clean package
         chmod 600 ~/.ssh/*
-        scp -r target/spring3-mvc-maven-xml-hello-world-1.2.war ubuntu@3.110.172.28:/opt/apache-tomcat-8.5.81/webapps
+        scp -r target/spring3-mvc-maven-xml-hello-world-1.2.war ubuntu@3.110.172.28:/opt/apache-tomcat-8.5.82/webapps
